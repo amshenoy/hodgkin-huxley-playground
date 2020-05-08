@@ -1,0 +1,4 @@
+/* This is necessary to make Plotly points selectable. */
+.scatterlayer .trace:last-child .points path {
+	pointer-events: all;
+}
